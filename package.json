@@ -1,6 +1,7 @@
 {
   "name": "social-proof-section",
   "version": "0.0.1",
+  "description": "section component that renders marketing copy and user reviews, both as star ratings and testimonials.",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
