@@ -6,11 +6,6 @@ import 'fontsource-spartan/700.css';
 
 const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
-    html {
-        height: 100vh;
-        width: 100%;
-        grid-template-areas: "content";
-    }
     body {
         font-family: ${theme.typography.fontFamily};
         font-size: ${theme.typography.sizes.base};

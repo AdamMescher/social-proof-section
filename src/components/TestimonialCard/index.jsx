@@ -3,16 +3,12 @@ import StyledTestimonialCard from './styled';
 
 const TestimonialCard = ({ testimonial }) => (
   <StyledTestimonialCard>
-    <div className="tc-header-cont">
-      <img src={testimonial.headshot} alt={testimonial.name} />
-      <div className="tc-text-cont">
-        <h3 className="name">{testimonial.name}</h3>
-        <p className="subtitle">Verified Buyer</p>
-      </div>
+    <img src={testimonial.headshot} alt={testimonial.name} />
+    <div className="title">
+      <h3>{testimonial.name}</h3>
+      <p>Verified Buyer</p>
     </div>
-    <div className="review-text-cont">
-      <blockquote>{testimonial.review}</blockquote>
-    </div>
+    <blockquote>{testimonial.review}</blockquote>
   </StyledTestimonialCard>
 );
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledRatingList = styled.div`
-  grid-area: star-cards;
+  grid-area: star;
 `;
 
 export default StyledRatingList;

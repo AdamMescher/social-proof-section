@@ -10,12 +10,9 @@ import StarRatingList from '../StarRatingList';
 const SocialProof = () => {
   return (
     <StyledSocialProof>
-      <div className="one"></div>
-      <div className="two"></div>
-      <div className="three"></div>
-      {/* <SocialProofCopy header={copy.header} body={copy.body} />
+      <SocialProofCopy header={copy.header} body={copy.body} />
       <StarRatingList ratings={ratings} />
-      <TestimonialList testimonials={testimonials} /> */}
+      <TestimonialList testimonials={testimonials} />
     </StyledSocialProof>
   );
 };
