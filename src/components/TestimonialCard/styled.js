@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 const StyledTestimonialCard = styled.li`
+  height: 20rem;
   list-style: none;
   background: ${({ theme }) => theme.colors.primary.magenta};
-  border-radius: ${({ theme }) => theme.borders.rounded.md};
+  border-radius: ${({ theme }) => theme.borders.rounded.lg};
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-template-rows: 100px 1fr;

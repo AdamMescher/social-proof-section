@@ -10,9 +10,7 @@ const StarRatingCard = ({ rating }) => (
         <img key={uuidv4()} src={starIcon} alt="star icon" aria-hidden="true" />
       ))}
     </div>
-    <div className="copy-container">
-      <span>{`Rated ${rating.value} in ${rating.publication}`}</span>
-    </div>
+    <span>{`Rated ${rating.value} in ${rating.publication}`}</span>
   </StyledStarRatingCard>
 );
 
