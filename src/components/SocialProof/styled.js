@@ -15,7 +15,6 @@ const StyledSocialProof = styled.section`
   background-position: right bottom, top left;
   background-repeat: no-repeat;
   background-size: 75%, 40%;
-  padding: 8rem 10rem 8rem 10rem;
 `;
 
 export default StyledSocialProof;
