@@ -1,4 +1,11 @@
 const theme = {
+  breakpoints: {
+    sm: '640px',
+    md: '768px',
+    lg: '1024px',
+    xl: '1280px',
+    huge: '1900px',
+  },
   borders: {
     rounded: {
       none: 0,
@@ -26,8 +33,8 @@ const theme = {
   typography: {
     fontFamily: `'Spartan', sans-serif`,
     letterSpacing: {
-      tighter: '0.05em',
-      tight: '0.025em',
+      tighter: '-0.05em',
+      tight: '-0.025em',
       normal: '0',
       wide: '0.025em',
       wider: '0.05em',
@@ -58,6 +65,27 @@ const theme = {
       medium: 500,
       bold: 700,
     },
+  },
+  spacing: {
+    px: '1px',
+    sp0: 0,
+    sp1: '0.25rem',
+    sp2: '0.5rem',
+    sp3: '0.75rem',
+    sp4: '1rem',
+    sp5: '1.25rem',
+    sp6: '1.5rem',
+    sp8: '2rem',
+    sp10: '2.5rem',
+    sp12: '3rem',
+    sp16: '4rem',
+    sp20: '5rem',
+    sp24: '6rem',
+    sp32: '8rem',
+    sp40: '10rem',
+    sp48: '12rem',
+    sp56: '14rem',
+    sp64: '16rem',
   },
 };
 
